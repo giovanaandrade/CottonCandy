@@ -681,11 +681,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Services\\CottonCandy.API\\CottonCandy.API.csproj",
+      "projectUniqueName": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\CottonCandy\\src\\Services\\CottonCandy.API\\CottonCandy.API.csproj",
       "projectName": "CottonCandy.API",
-      "projectPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Services\\CottonCandy.API\\CottonCandy.API.csproj",
+      "projectPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\CottonCandy\\src\\Services\\CottonCandy.API\\CottonCandy.API.csproj",
       "packagesPath": "C:\\Users\\giova\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Services\\CottonCandy.API\\obj\\",
+      "outputPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\CottonCandy\\src\\Services\\CottonCandy.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\giova\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -702,11 +702,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj": {
-              "projectPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj"
+            "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\CottonCandy\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj": {
+              "projectPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\CottonCandy\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj"
             },
-            "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Repositories.IoC\\CottonCandy.Repositories.IoC.csproj": {
-              "projectPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Repositories.IoC\\CottonCandy.Repositories.IoC.csproj"
+            "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\CottonCandy\\src\\Modules\\CottonCandy.Repositories.IoC\\CottonCandy.Repositories.IoC.csproj": {
+              "projectPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\CottonCandy\\src\\Modules\\CottonCandy.Repositories.IoC\\CottonCandy.Repositories.IoC.csproj"
             }
           }
         }

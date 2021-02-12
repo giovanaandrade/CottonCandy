@@ -35,5 +35,19 @@ namespace CottonCandy.API.Controllers
             }
   
         }
+
+        [HttpGet]
+        [Route("{id}")]
+        public async Task<IActionResult> Get([FromRoute] int id)
+        {
+            var usuario = await _usuarioAppService
+                                .GetByIdAsync(id)
+                                .ConfigureAwait(false);
+
+            if (usuario is null)
+                return NotFound();
+
+            return Ok(usuario);
+        }
     }
 }

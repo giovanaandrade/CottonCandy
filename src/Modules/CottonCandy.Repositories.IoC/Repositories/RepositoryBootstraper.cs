@@ -12,6 +12,7 @@ namespace CottonCandy.Repositories.IoC.Repositories
         {
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<IGeneroRepository, GeneroRepository>();
+            services.AddScoped<IPostagemRepository, PostagemRepository>();
 
         }
     }

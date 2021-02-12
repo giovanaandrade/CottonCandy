@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9pVrPGEAxndYlzu3FPAozvdXDYgLoGTGgR8O0h8EwswX5tEKJB0i6sX6JWJAFaYpXm6rH5SJDmdefQDJSHONzw==",
+  "dgSpecHash": "TIEEtAx93Zi3KnngXJo6zPgmW7K6wvaC9fsYoWNkCuvbUqNIXVx3TLjBGOs25FyWsd0Li6MXabHGrs81BXZBZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Repositories\\CottonCandy.Repositories.csproj",
+  "projectFilePath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\CottonCandy\\src\\Modules\\CottonCandy.Repositories\\CottonCandy.Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\giova\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.12\\microsoft.extensions.configuration.abstractions.3.1.12.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.12\\microsoft.extensions.primitives.3.1.12.nupkg.sha512",

@@ -24,4 +24,37 @@ ALTER TABLE dbo.Usuario
    ADD CONSTRAINT FK_Usuario_Genero FOREIGN KEY (GeneroId)
       REFERENCES dbo.Genero (Id)
 
+CREATE TABLE dbo.Postagem(
+   Id int IDENTITY(1,1) NOT NULL,
+   Texto varchar(max) NOT NULL,
+   DataPostagem DateTime NOT NULL,
+   Foto varchar(max), 
+   UsuarioId int NOT NULL,   
+   CONSTRAINT PK_Postagem_Id PRIMARY KEY CLUSTERED (Id) )
+
+ALTER TABLE dbo.Postagem
+   ADD CONSTRAINT FK_Postagem_Usuario FOREIGN KEY (UsuarioId)
+      REFERENCES dbo.Usuario (Id)
+
+
+
+CREATE TABLE dbo.Curtidas(
+   Id int IDENTITY(1,1) NOT NULL, 
+   Tipo varchar(100) NOT NULL, 
+   PostagemId int NOT NULL, 
+   UsuarioId int NOT NULL, 
+
+  CONSTRAINT PK_Curtidas_Id PRIMARY KEY CLUSTERED (Id)
+)
+
+ALTER TABLE dbo.Curtidas
+   ADD CONSTRAINT FK_Curtidas_Usuario FOREIGN KEY (UsuarioId)
+      REFERENCES dbo.Usuario (Id)
+	  
+ALTER TABLE dbo.Curtidas
+   ADD CONSTRAINT FK_Curtidas_Postagem FOREIGN KEY (PostagemId)
+      REFERENCES dbo.Postagem (Id)
+
+
+
 	

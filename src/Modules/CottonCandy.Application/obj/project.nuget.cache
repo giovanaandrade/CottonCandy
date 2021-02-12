@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6qpJET4GRv4VsRWBp+G8ykOk/rlBHKUHxJamzbxQ4K0BC0rB6xxY6f1cycZkG0Snwim28vwl5nUKWbY2FR64Hw==",
+  "dgSpecHash": "dFoh95avfpoyj6T2PMuTK7w5VY/ACQ0vPpiTL3oUeXIYhedu1eQxkUsbBo2qy0cpCTS02IeJTNpzpItGkN4gww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj",
+  "projectFilePath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\CottonCandy\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
