@@ -1,0 +1,9 @@
+C:\Users\giova\Desktop\Gama Academy\projeto-final\SocialGama\src\Modules\CottonCandy.Domain\bin\Debug\netcoreapp3.1\CottonCandy.Domain.deps.json
+C:\Users\giova\Desktop\Gama Academy\projeto-final\SocialGama\src\Modules\CottonCandy.Domain\bin\Debug\netcoreapp3.1\CottonCandy.Domain.dll
+C:\Users\giova\Desktop\Gama Academy\projeto-final\SocialGama\src\Modules\CottonCandy.Domain\bin\Debug\netcoreapp3.1\CottonCandy.Domain.pdb
+C:\Users\giova\Desktop\Gama Academy\projeto-final\SocialGama\src\Modules\CottonCandy.Domain\obj\Debug\netcoreapp3.1\CottonCandy.Domain.csprojAssemblyReference.cache
+C:\Users\giova\Desktop\Gama Academy\projeto-final\SocialGama\src\Modules\CottonCandy.Domain\obj\Debug\netcoreapp3.1\CottonCandy.Domain.AssemblyInfoInputs.cache
+C:\Users\giova\Desktop\Gama Academy\projeto-final\SocialGama\src\Modules\CottonCandy.Domain\obj\Debug\netcoreapp3.1\CottonCandy.Domain.AssemblyInfo.cs
+C:\Users\giova\Desktop\Gama Academy\projeto-final\SocialGama\src\Modules\CottonCandy.Domain\obj\Debug\netcoreapp3.1\CottonCandy.Domain.csproj.CoreCompileInputs.cache
+C:\Users\giova\Desktop\Gama Academy\projeto-final\SocialGama\src\Modules\CottonCandy.Domain\obj\Debug\netcoreapp3.1\CottonCandy.Domain.dll
+C:\Users\giova\Desktop\Gama Academy\projeto-final\SocialGama\src\Modules\CottonCandy.Domain\obj\Debug\netcoreapp3.1\CottonCandy.Domain.pdb

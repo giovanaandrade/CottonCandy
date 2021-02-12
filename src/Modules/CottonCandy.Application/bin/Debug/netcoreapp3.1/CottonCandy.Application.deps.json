@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CottonCandy.Application/1.0.0": {
+        "dependencies": {
+          "CottonCandy.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CottonCandy.Application.dll": {}
+        }
+      },
+      "CottonCandy.Domain/1.0.0": {
+        "runtime": {
+          "CottonCandy.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CottonCandy.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CottonCandy.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
