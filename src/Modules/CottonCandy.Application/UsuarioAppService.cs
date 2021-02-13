@@ -49,7 +49,7 @@ namespace CottonCandy.Application.AppUsuario
 
             if (genero is null)
             {
-                throw new ArgumentException("O genero que está tentando associar ao usuário não existe!");
+                throw new ArgumentException("O gênero que está tentando associar ao usuário não existe!");
             }
 
             var usuario = new Usuario(input.Nome,

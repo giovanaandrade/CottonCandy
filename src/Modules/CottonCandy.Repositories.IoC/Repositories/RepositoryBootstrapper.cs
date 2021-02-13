@@ -1,12 +1,9 @@
 ﻿using CottonCandy.Domain.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CottonCandy.Repositories.IoC.Repositories
 {
-    internal class RepositoryBootstraper
+    internal class RepositoryBootstrapper
     {
         internal void ChildServiceRegister(IServiceCollection services)
         {

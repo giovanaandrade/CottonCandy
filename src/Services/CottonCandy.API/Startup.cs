@@ -6,10 +6,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CottonCandy.API
 {
@@ -26,6 +24,23 @@ namespace CottonCandy.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddSwaggerGen(c => {
+
+                c.SwaggerDoc("v1",
+                    new OpenApiInfo
+                    {
+                        Title = "CottonCandy",
+                        Version = "v1",
+                        Description = "API",
+                        Contact = new OpenApiContact
+                        {
+                            Name = "Grupo 2",
+                            Url = new Uri("https://github.com/giovanaandrade/CottonCandy/")
+                        }
+                    });
+            });
+
             RegisterServices(services);
         }
 
@@ -45,11 +60,16 @@ namespace CottonCandy.API
             {
                 endpoints.MapControllers();
             });
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c => {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "CottonCandy");
+            });
         }
 
         void RegisterServices(IServiceCollection services)
         {
-            new RootBootstraper().RootRegisterServices(services);
+            new RootBootstrapper().RootRegisterServices(services);
         }
     }
 }
