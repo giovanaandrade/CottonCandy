@@ -172,7 +172,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "CottonCandy.Domain": "1.0.0"
+          "CottonCandy.Domain": "1.0.0",
+          "CottonCandy.Repositories": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CottonCandy.Application.dll": {}
@@ -676,37 +677,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\giova\\.nuget\\packages\\": {}
+    "/Users/amandacavalcanti/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Services\\CottonCandy.API\\CottonCandy.API.csproj",
+      "projectUniqueName": "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Services/CottonCandy.API/CottonCandy.API.csproj",
       "projectName": "CottonCandy.API",
-      "projectPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Services\\CottonCandy.API\\CottonCandy.API.csproj",
-      "packagesPath": "C:\\Users\\giova\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Services\\CottonCandy.API\\obj\\",
+      "projectPath": "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Services/CottonCandy.API/CottonCandy.API.csproj",
+      "packagesPath": "/Users/amandacavalcanti/.nuget/packages/",
+      "outputPath": "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Services/CottonCandy.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\giova\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/amandacavalcanti/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj": {
-              "projectPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj"
+            "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Application/CottonCandy.Application.csproj": {
+              "projectPath": "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Application/CottonCandy.Application.csproj"
             },
-            "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Repositories.IoC\\CottonCandy.Repositories.IoC.csproj": {
-              "projectPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Repositories.IoC\\CottonCandy.Repositories.IoC.csproj"
+            "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Repositories.IoC/CottonCandy.Repositories.IoC.csproj": {
+              "projectPath": "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Repositories.IoC/CottonCandy.Repositories.IoC.csproj"
             }
           }
         }
@@ -744,7 +743,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
       }
     }
   }

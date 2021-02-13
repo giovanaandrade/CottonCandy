@@ -1,10 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using CottonCandy.Domain.Entities;
+
 namespace CottonCandy.Application.AppPostagem.Interfaces
 {
-    public class IComentarioAppService
-    {
-        public IComentarioAppService()
+   
+        public interface IComentarioAppService
         {
+            Task<Comentario> InserirAsync(int idPostagem, ComentarioInput input); //ComentarioInput ainda nao existe
+            Task<List<Comentario>> PegarComentariosPorIdPostagemAsync(int idPostagem);
+
         }
-    }
+    
 }

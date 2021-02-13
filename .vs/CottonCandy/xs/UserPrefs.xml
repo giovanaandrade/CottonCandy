@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{B29AD6F3-ED01-4C54-B737-7B99DDF7362B}|Default">
+  <MonoDevelop.Ide.ItemProperties.0-API.CottonCandy.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Modules/CottonCandy.Application/AppPostagem/ComentarioAppService.cs">
+    <Files>
+      <File FileName="src/Modules/CottonCandy.Domain/Entities/Usuario.cs" Line="1" Column="1" />
+      <File FileName="src/Modules/CottonCandy.Domain/Interfaces/IComentarioRepository.cs" />
+      <File FileName="src/Modules/CottonCandy.Domain/Entities/Comentario.cs" />
+      <File FileName="src/Modules/CottonCandy.Repositories/ComentarioRepository.cs" />
+      <File FileName="src/Modules/CottonCandy.Application/AppPostagem/Interfaces/IComentarioAppService.cs" />
+      <File FileName="src/Modules/CottonCandy.Application/AppPostagem/ComentarioAppService.cs" Line="14" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CottonCandy" expanded="True">
+            <Node name="0-API" expanded="True">
+              <Node name="CottonCandy.API" expanded="True" />
+            </Node>
+            <Node name="1-Application" expanded="True">
+              <Node name="CottonCandy.Application" expanded="True">
+                <Node name="AppPostagem" expanded="True">
+                  <Node name="Interfaces" expanded="True" />
+                  <Node name="ComentarioAppService.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="2-Domain" expanded="True">
+              <Node name="CottonCandy.Domain" expanded="True">
+                <Node name="Entities" expanded="True" />
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="3-Infrastructure" expanded="True">
+              <Node name="3.1-Repositories" expanded="True">
+                <Node name="CottonCandy.Repositories" expanded="True">
+                  <Node name="Dependencies" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

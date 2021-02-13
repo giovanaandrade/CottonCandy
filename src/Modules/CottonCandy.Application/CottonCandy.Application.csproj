@@ -6,6 +6,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CottonCandy.Domain\CottonCandy.Domain.csproj" />
+    <ProjectReference Include="..\CottonCandy.Repositories\CottonCandy.Repositories.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="AppPostagem\" />
+    <Folder Include="AppPostagem\Interfaces\" />
+  </ItemGroup>
 </Project>
