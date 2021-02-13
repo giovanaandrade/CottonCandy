@@ -66,7 +66,7 @@ namespace CottonCandy.Repositories
             }
         }
 
-        public async Task<Usuario> GetByLoginAsync(string login)
+        public async Task<Usuario> GetByLoginAsync(string email)
         {
             using(var con = new SqlConnection(_configuration["ConnectionString"]))
             {
@@ -85,7 +85,7 @@ namespace CottonCandy.Repositories
                                 INNER JOIN
                                       Genero g ON g.Id = u.GeneroId
                                 WHERE
-                                       u.Email= '{login}'";
+                                       u.Email= '{email}'";
                 using (var cmd = new SqlCommand(SqlCmd, con))
                 {
                     cmd.CommandType = CommandType.Text;
@@ -104,6 +104,7 @@ namespace CottonCandy.Repositories
                                                   reader["Cargo"].ToString(),
                                                   reader["Cidade"].ToString());
 
+                        usuario.InformacaoLoginUsuario(reader["Email"].ToString(), reader["Senha"].ToString());
                         usuario.SetId(int.Parse(reader["Id"].ToString()));
                         usuario.Genero.SetId(int.Parse(reader["GeneroId"].ToString()));
                         
