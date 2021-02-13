@@ -1380,14 +1380,18 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "CottonCandy.Domain": "1.0.0"
+          "CottonCandy.Domain": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.0.4"
         },
         "compile": {
           "bin/placeholder/CottonCandy.Application.dll": {}
         },
         "runtime": {
           "bin/placeholder/CottonCandy.Application.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "CottonCandy.Domain/1.0.0": {
         "type": "project",
@@ -1408,6 +1412,7 @@
         "dependencies": {
           "CottonCandy.Domain": "1.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.12",
+          "Swashbuckle.AspNetCore": "6.0.4",
           "System.Data.SqlClient": "4.8.2"
         },
         "compile": {
@@ -1415,7 +1420,10 @@
         },
         "runtime": {
           "bin/placeholder/CottonCandy.Repositories.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "CottonCandy.Repositories.IoC/1.0.0": {
         "type": "project",
@@ -1424,14 +1432,18 @@
           "CottonCandy.Application": "1.0.0",
           "CottonCandy.Repositories": "1.0.0",
           "Microsoft.AspNetCore.Http": "2.2.2",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.12"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.12",
+          "Swashbuckle.AspNetCore": "6.0.4"
         },
         "compile": {
           "bin/placeholder/CottonCandy.Repositories.IoC.dll": {}
         },
         "runtime": {
           "bin/placeholder/CottonCandy.Repositories.IoC.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },

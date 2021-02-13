@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Application\bin\Release\netcoreapp3.1\CottonCandy.Application.deps.json
 C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Application\bin\Release\netcoreapp3.1\CottonCandy.Application.dll
 C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Application\bin\Release\netcoreapp3.1\CottonCandy.Application.pdb
@@ -10,6 +11,8 @@ C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Application\
 C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Application\obj\Release\netcoreapp3.1\CottonCandy.Application.csproj.CopyComplete
 C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Application\obj\Release\netcoreapp3.1\CottonCandy.Application.dll
 C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Application\obj\Release\netcoreapp3.1\CottonCandy.Application.pdb
+=======
+>>>>>>> postagem-curtidas
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Application\bin\Release\netcoreapp3.1\CottonCandy.Application.deps.json
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Application\bin\Release\netcoreapp3.1\CottonCandy.Application.dll
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Application\bin\Release\netcoreapp3.1\CottonCandy.Application.pdb

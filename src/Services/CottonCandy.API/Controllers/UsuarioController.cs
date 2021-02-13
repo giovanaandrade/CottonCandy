@@ -40,14 +40,14 @@ namespace CottonCandy.API.Controllers
         [Route("{id}")]
         public async Task<IActionResult> Get([FromRoute] int id)
         {
-            var user = await _usuarioAppService
+            var usuario = await _usuarioAppService
                                 .GetByIdAsync(id)
                                 .ConfigureAwait(false);
 
-            if (user is null)
+            if (usuario is null)
                 return NotFound();
 
-            return Ok(user);
+            return Ok(usuario);
         }
     }
 }

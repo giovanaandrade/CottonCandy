@@ -27,6 +27,11 @@ namespace CottonCandy.Domain.Entities
 
         }
 
+        public Usuario(int id)
+        {
+            Id = id;
+        }
+
 
         public int Id { get; private set; }
         public string Nome { get; private set; }

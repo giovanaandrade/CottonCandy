@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "AofWM6r/GGsSkv/nh4YcHxnKZNQP4Ur08k3XKvOE3BiQJP9c4lpP/u0GfPmFOE8DkthSiI8UkyJq9l3syA/Xzg==",
+  "dgSpecHash": "KvPn3b9GHjtiMSq2Iaaia8neVWmM7wRMGq2tctA1A1K+M6dDoAowsruOpLsRX6GfknLNaGRdT/cQLT34MsH9Qg==",
   "success": true,
   "projectFilePath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\CottonCandy\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\giova\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\giova\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
-    "C:\\Users\\giova\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
-    "C:\\Users\\giova\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
-    "C:\\Users\\giova\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
-    "C:\\Users\\giova\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+    "C:\\Users\\giova\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\giova\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\giova\\.nuget\\packages\\swashbuckle.aspnetcore\\6.0.4\\swashbuckle.aspnetcore.6.0.4.nupkg.sha512",
+    "C:\\Users\\giova\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.0.4\\swashbuckle.aspnetcore.swagger.6.0.4.nupkg.sha512",
+    "C:\\Users\\giova\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.0.4\\swashbuckle.aspnetcore.swaggergen.6.0.4.nupkg.sha512",
+    "C:\\Users\\giova\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.0.4\\swashbuckle.aspnetcore.swaggerui.6.0.4.nupkg.sha512"
   ],
   "logs": []
 }

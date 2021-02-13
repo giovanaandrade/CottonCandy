@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
@@ -49,6 +50,13 @@ C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Services\CottonCandy.API\bin\Rel
 C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+=======
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\CottonCandy.API.csprojAssemblyReference.cache
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\CottonCandy.API.AssemblyInfoInputs.cache
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\CottonCandy.API.AssemblyInfo.cs
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\CottonCandy.API.csproj.CoreCompileInputs.cache
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\CottonCandy.API.MvcApplicationPartsAssemblyInfo.cache
+>>>>>>> postagem-curtidas
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\appsettings.Development.json
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\appsettings.json
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\CottonCandy.API.exe
@@ -57,6 +65,7 @@ C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\Cotto
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\CottonCandy.API.runtimeconfig.dev.json
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\CottonCandy.API.dll
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\CottonCandy.API.pdb
+<<<<<<< HEAD
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -73,6 +82,12 @@ C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\Cotto
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\System.Data.SqlClient.dll
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+=======
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\System.Data.SqlClient.dll
+>>>>>>> postagem-curtidas
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
@@ -86,12 +101,15 @@ C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\Cotto
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\CottonCandy.Repositories.IoC.pdb
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\CottonCandy.Domain.pdb
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\CottonCandy.Repositories.pdb
+<<<<<<< HEAD
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\CottonCandy.API.csprojAssemblyReference.cache
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\CottonCandy.API.AssemblyInfoInputs.cache
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\CottonCandy.API.AssemblyInfo.cs
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\CottonCandy.API.csproj.CoreCompileInputs.cache
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\CottonCandy.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\CottonCandy.API.MvcApplicationPartsAssemblyInfo.cache
+=======
+>>>>>>> postagem-curtidas
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\staticwebassets\CottonCandy.API.StaticWebAssets.Manifest.cache
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\staticwebassets\CottonCandy.API.StaticWebAssets.xml
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\scopedcss\bundle\CottonCandy.API.styles.css
@@ -100,3 +118,11 @@ C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\Cotto
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\CottonCandy.API.dll
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\CottonCandy.API.pdb
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\CottonCandy.API.genruntimeconfig.cache
+<<<<<<< HEAD
+=======
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\obj\Release\netcoreapp3.1\CottonCandy.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+>>>>>>> postagem-curtidas
