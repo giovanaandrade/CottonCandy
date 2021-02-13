@@ -22,11 +22,12 @@ namespace CottonCandy.Repositories
         {
             using (var con = new SqlConnection(_configuration["ConnectionString"]))
             {
-                var SqlCmd = @$"SELECT Id, Descricao
+                var SqlCmd = @$"SELECT Id, 
+                                       Descricao
                                 FROM
-                                      Genero g ON g.Id = u.GeneroId
+                                      Genero
                                 WHERE
-                                       u.Id= '{id}'";
+                                       Id= '{id}'";
                 using (var cmd = new SqlCommand(SqlCmd, con))
                 {
                     cmd.CommandType = CommandType.Text;

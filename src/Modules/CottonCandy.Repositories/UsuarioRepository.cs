@@ -36,7 +36,7 @@ namespace CottonCandy.Repositories
                                 INNER JOIN
                                       Genero g ON g.Id = u.GeneroId
                                 WHERE
-                                       u.Email= '{id}'";
+                                       u.Id= '{id}'";
                 using (var cmd = new SqlCommand(SqlCmd, con))
                 {
                     cmd.CommandType = CommandType.Text;
@@ -60,9 +60,10 @@ namespace CottonCandy.Repositories
 
                         return usuario;
                     }
-                }
 
-                return default;
+                    return default;
+                }
+                            
             }
         }
 
@@ -109,9 +110,9 @@ namespace CottonCandy.Repositories
                         
                         return usuario;
                     }
-                }
 
-                return default;
+                    return default;
+                }
             }
         }
 

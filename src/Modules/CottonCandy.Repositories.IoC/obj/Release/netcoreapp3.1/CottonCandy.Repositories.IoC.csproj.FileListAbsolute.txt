@@ -1,0 +1,16 @@
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\bin\Release\netcoreapp3.1\CottonCandy.Repositories.IoC.deps.json
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\bin\Release\netcoreapp3.1\CottonCandy.Repositories.IoC.dll
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\bin\Release\netcoreapp3.1\CottonCandy.Repositories.IoC.pdb
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\bin\Release\netcoreapp3.1\CottonCandy.Application.dll
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\bin\Release\netcoreapp3.1\CottonCandy.Domain.dll
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\bin\Release\netcoreapp3.1\CottonCandy.Repositories.dll
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\bin\Release\netcoreapp3.1\CottonCandy.Application.pdb
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\bin\Release\netcoreapp3.1\CottonCandy.Repositories.pdb
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\bin\Release\netcoreapp3.1\CottonCandy.Domain.pdb
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\obj\Release\netcoreapp3.1\CottonCandy.Repositories.IoC.csprojAssemblyReference.cache
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\obj\Release\netcoreapp3.1\CottonCandy.Repositories.IoC.AssemblyInfoInputs.cache
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\obj\Release\netcoreapp3.1\CottonCandy.Repositories.IoC.AssemblyInfo.cs
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\obj\Release\netcoreapp3.1\CottonCandy.Repositories.IoC.csproj.CoreCompileInputs.cache
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\obj\Release\netcoreapp3.1\CottonCandy.Repositories.IoC.csproj.CopyComplete
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\obj\Release\netcoreapp3.1\CottonCandy.Repositories.IoC.dll
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\obj\Release\netcoreapp3.1\CottonCandy.Repositories.IoC.pdb

@@ -1,0 +1,9 @@
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Domain\bin\Release\netcoreapp3.1\CottonCandy.Domain.deps.json
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Domain\bin\Release\netcoreapp3.1\CottonCandy.Domain.dll
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Domain\bin\Release\netcoreapp3.1\CottonCandy.Domain.pdb
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Domain\obj\Release\netcoreapp3.1\CottonCandy.Domain.csprojAssemblyReference.cache
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Domain\obj\Release\netcoreapp3.1\CottonCandy.Domain.AssemblyInfoInputs.cache
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Domain\obj\Release\netcoreapp3.1\CottonCandy.Domain.AssemblyInfo.cs
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Domain\obj\Release\netcoreapp3.1\CottonCandy.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Domain\obj\Release\netcoreapp3.1\CottonCandy.Domain.dll
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Domain\obj\Release\netcoreapp3.1\CottonCandy.Domain.pdb

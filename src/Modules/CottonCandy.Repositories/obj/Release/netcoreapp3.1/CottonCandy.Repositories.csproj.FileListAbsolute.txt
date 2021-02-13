@@ -1,0 +1,12 @@
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories\bin\Release\netcoreapp3.1\CottonCandy.Repositories.deps.json
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories\bin\Release\netcoreapp3.1\CottonCandy.Repositories.dll
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories\bin\Release\netcoreapp3.1\CottonCandy.Repositories.pdb
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories\bin\Release\netcoreapp3.1\CottonCandy.Domain.dll
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories\bin\Release\netcoreapp3.1\CottonCandy.Domain.pdb
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Release\netcoreapp3.1\CottonCandy.Repositories.csprojAssemblyReference.cache
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Release\netcoreapp3.1\CottonCandy.Repositories.AssemblyInfoInputs.cache
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Release\netcoreapp3.1\CottonCandy.Repositories.AssemblyInfo.cs
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Release\netcoreapp3.1\CottonCandy.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Release\netcoreapp3.1\CottonCandy.Repositories.csproj.CopyComplete
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Release\netcoreapp3.1\CottonCandy.Repositories.dll
+C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Release\netcoreapp3.1\CottonCandy.Repositories.pdb
