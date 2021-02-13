@@ -6,17 +6,32 @@ namespace CottonCandy.Domain.Entities
 {
     public class Curtidas
     {
-        public Curtidas(Usuario usuario, Postagem postagem, string tipo)
+        public Curtidas(int usuarioId, int postagemId, string tipo)
         {
-            Usuario = usuario;
-            Postagem = postagem;
+            UsuarioId = usuarioId;
+            PostagemId = postagemId;
             Tipo = tipo;
 
         }
 
+        public Curtidas(int id, int usuarioId, int postagemId)
+        {
+            Id = id;
+            UsuarioId = usuarioId;
+            PostagemId = postagemId;
+
+        }
+
+        public Curtidas(int postagemId, int usuarioId)
+        {
+            UsuarioId = usuarioId;
+            PostagemId = postagemId;
+
+        }
+
         public int Id { get; private set; }
-        public Usuario Usuario { get; private set; }
-        public Postagem Postagem { get; private set; }
+        public int UsuarioId { get; private set; }
+        public int PostagemId { get; private set; }
         public string Tipo { get; private set; }
 
 

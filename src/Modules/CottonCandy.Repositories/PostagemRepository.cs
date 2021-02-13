@@ -48,7 +48,7 @@ namespace CottonCandy.Repositories
                     {
                         var postagem = new Postagem(reader["Texto"].ToString(),
                                                     reader["FotoPost"].ToString(),
-                                                    new Usuario(int.Parse(reader["UsuarioId"].ToString())));
+                                                    int.Parse(reader["UsuarioId"].ToString()));
 
 
                         postagensUsuario.Add(postagem);
@@ -79,7 +79,7 @@ namespace CottonCandy.Repositories
                     cmd.Parameters.AddWithValue("texto", postagem.Texto);
                     cmd.Parameters.AddWithValue("dataPostagem", postagem.DataPostagem);
                     cmd.Parameters.AddWithValue("fotoPost", postagem.FotoPost);
-                    cmd.Parameters.AddWithValue("usuarioId", postagem.Usuario.Id);
+                    cmd.Parameters.AddWithValue("usuarioId", postagem.UsuarioId);
 
                     con.Open();
                     var id = await cmd.ExecuteScalarAsync().ConfigureAwait(false);
@@ -91,5 +91,5 @@ namespace CottonCandy.Repositories
             }
         }
     }
-    }
+    
 }

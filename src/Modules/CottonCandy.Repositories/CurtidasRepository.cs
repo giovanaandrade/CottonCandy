@@ -19,7 +19,7 @@ namespace CottonCandy.Repositories
         {
             _configuration = configuration;
         }
-        public async Task<List<Curtidas>> GetByUserIdAsync(int usuarioId)
+        public async Task<List<Curtidas>> GetByUsuarioIdAsync(int usuarioId)
         {
             using (var con = new SqlConnection(_configuration["ConnectionString"]))
             {
@@ -45,8 +45,8 @@ namespace CottonCandy.Repositories
 
                     while (reader.Read())
                     {
-                        var curtidas = new Curtidas(new Usuario(int.Parse(reader["UsuarioId"].ToString())),
-                                                    new Postagem(int.Parse(reader["PostagemId"].ToString())),
+                        var curtidas = new Curtidas(int.Parse(reader["UsuarioId"].ToString()),
+                                                    int.Parse(reader["PostagemId"].ToString()),
                                                     reader["Tipo"].ToString());
 
 
@@ -54,6 +54,112 @@ namespace CottonCandy.Repositories
                     }
 
                     return curtidasUsuario;
+                }
+            }
+        }
+
+        public async Task<List<Curtidas>> GetByPostagemIdAsync(int postagemId)
+        {
+            using (var con = new SqlConnection(_configuration["ConnectionString"]))
+            {
+                var sqlCmd = @$"SELECT Id,
+                                       Tipo,
+                                       PostagemId,
+                                       UsuarioId
+                                FROM 
+	                                Curtidas
+                                WHERE 
+	                                PostagemId= '{postagemId}'";
+
+                using (var cmd = new SqlCommand(sqlCmd, con))
+                {
+                    cmd.CommandType = CommandType.Text;
+                    con.Open();
+
+                    var reader = await cmd
+                                        .ExecuteReaderAsync()
+                                        .ConfigureAwait(false);
+
+                    var curtidasPostagem = new List<Curtidas>();
+
+                    while (reader.Read())
+                    {
+                        var curtidas = new Curtidas(int.Parse(reader["UsuarioId"].ToString()),
+                                                    int.Parse(reader["PostagemId"].ToString()),
+                                                    reader["Tipo"].ToString());
+
+
+                        curtidasPostagem.Add(curtidas);
+                    }
+
+                    return curtidasPostagem;
+                }
+            }
+        }
+
+        public async Task<Curtidas> GetByUsuarioIdAndPostagemIdAsync(int usuarioId, int postagemId)
+        {
+            using (var con = new SqlConnection(_configuration["ConnectionString"]))
+            {
+                var sqlCmd = @$"SELECT Id,
+	                                   UsuarioId,
+                                       PostagemId,
+                                       Tipo
+                                FROM 
+	                                Curtidas
+                                WHERE 
+	                                UsuarioId= '{usuarioId}'
+                                AND 
+                                    PostagemId= '{postagemId}'";
+
+                using (var cmd = new SqlCommand(sqlCmd, con))
+                {
+                    cmd.CommandType = CommandType.Text;
+                    con.Open();
+
+                    var reader = await cmd
+                                        .ExecuteReaderAsync()
+                                        .ConfigureAwait(false);
+
+                    while (reader.Read())
+                    {
+                        var curtida = new Curtidas(int.Parse(reader["PostagemId"].ToString()),
+                                                int.Parse(reader["UsuarioId"].ToString()),
+                                                reader["Tipo"].ToString());
+
+                        return curtida;
+                    }
+
+                    return default;
+                }
+            }
+        }
+        public async Task<int> GetQtdeCurtidasByPostagemIdAsync(int postagemId)
+        {
+            using (var con = new SqlConnection(_configuration["ConnectionString"]))
+            {
+                var sqlCmd = @$"SELECT
+                                    COUNT(*) AS Quantidade
+                                FROM 
+	                                Curtidas
+                                WHERE 
+	                                PostagemId={postagemId}";
+
+                using (var cmd = new SqlCommand(sqlCmd, con))
+                {
+                    cmd.CommandType = CommandType.Text;
+                    con.Open();
+
+                    var reader = await cmd
+                                        .ExecuteReaderAsync()
+                                        .ConfigureAwait(false);
+
+                    while (reader.Read())
+                    {
+                        return int.Parse(reader["Quantidade"].ToString());
+                    }
+
+                    return default;
                 }
             }
         }
@@ -74,8 +180,8 @@ namespace CottonCandy.Repositories
                 {
                     cmd.CommandType = CommandType.Text;
                     cmd.Parameters.AddWithValue("tipo", curtidas.Tipo);
-                    cmd.Parameters.AddWithValue("postagemId", curtidas.Postagem.Id);
-                    cmd.Parameters.AddWithValue("usuarioId", curtidas.Usuario.Id);
+                    cmd.Parameters.AddWithValue("postagemId", curtidas.PostagemId);
+                    cmd.Parameters.AddWithValue("usuarioId", curtidas.UsuarioId);
 
                     con.Open();
                     var id = await cmd.ExecuteScalarAsync().ConfigureAwait(false);
@@ -86,5 +192,25 @@ namespace CottonCandy.Repositories
                 }
             }
         }
-    }
+        public async Task DeleteAsync(int id)
+        {
+            using (var con = new SqlConnection(_configuration["ConnectionString"]))
+            {
+                var sqlCmd = $@"DELETE 
+                                FROM
+                                Curtidas
+                               WHERE 
+                                Id={id}";
+
+                using (var cmd = new SqlCommand(sqlCmd, con))
+                {
+                    cmd.CommandType = CommandType.Text;
+                    con.Open();
+
+                    await cmd.ExecuteScalarAsync().ConfigureAwait(false);
+                }
+            }
+        }
+    } 
+
 }

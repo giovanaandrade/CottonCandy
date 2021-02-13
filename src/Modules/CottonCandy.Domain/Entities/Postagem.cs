@@ -6,25 +6,23 @@ namespace CottonCandy.Domain.Entities
 {
 	public class Postagem
 	{
-		public Postagem(string texto, string fotoPost, Usuario usuario)
+		public Postagem(string texto, string fotoPost, int usuarioId)
 		{
 			Texto = texto;
 			FotoPost = fotoPost;
 			DataPostagem = DateTime.Now;
-			Usuario = usuario;
+			UsuarioId = usuarioId;
 		}
 
-        public Postagem(int id)
-        {
-			Id = id;
-        }
-
 		public int Id { get; private set; }
-		public Usuario Usuario { get; private set; }
+		public int UsuarioId { get; private set; }
 		public string Texto { get; private set; }
 		public string FotoPost { get; private set; }
 		public DateTime DataPostagem { get; private set; }
 
-
-	}
+        public void SetId(int id)
+        {
+			Id = id;
+        }
+    }
 }
