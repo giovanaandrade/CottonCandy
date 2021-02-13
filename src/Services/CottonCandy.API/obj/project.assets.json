@@ -672,6 +672,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "CottonCandy.Application >= 1.0.0",
+      "CottonCandy.Domain >= 1.0.0",
+      "CottonCandy.Repositories >= 1.0.0",
       "CottonCandy.Repositories.IoC >= 1.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9"
     ]
@@ -704,8 +706,14 @@
             "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Application/CottonCandy.Application.csproj": {
               "projectPath": "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Application/CottonCandy.Application.csproj"
             },
+            "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Domain/CottonCandy.Domain.csproj": {
+              "projectPath": "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Domain/CottonCandy.Domain.csproj"
+            },
             "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Repositories.IoC/CottonCandy.Repositories.IoC.csproj": {
               "projectPath": "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Repositories.IoC/CottonCandy.Repositories.IoC.csproj"
+            },
+            "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Repositories/CottonCandy.Repositories.csproj": {
+              "projectPath": "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Repositories/CottonCandy.Repositories.csproj"
             }
           }
         }

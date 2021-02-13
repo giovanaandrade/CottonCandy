@@ -12,5 +12,6 @@
   <ItemGroup>
     <Folder Include="AppPostagem\" />
     <Folder Include="AppPostagem\Interfaces\" />
+    <Folder Include="AppPostagem\Input\" />
   </ItemGroup>
 </Project>

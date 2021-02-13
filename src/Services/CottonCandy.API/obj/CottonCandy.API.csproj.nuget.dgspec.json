@@ -271,8 +271,14 @@
               "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Application/CottonCandy.Application.csproj": {
                 "projectPath": "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Application/CottonCandy.Application.csproj"
               },
+              "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Domain/CottonCandy.Domain.csproj": {
+                "projectPath": "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Domain/CottonCandy.Domain.csproj"
+              },
               "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Repositories.IoC/CottonCandy.Repositories.IoC.csproj": {
                 "projectPath": "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Repositories.IoC/CottonCandy.Repositories.IoC.csproj"
+              },
+              "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Repositories/CottonCandy.Repositories.csproj": {
+                "projectPath": "/Users/amandacavalcanti/documentos/cursos/gama academy/dot net/CottonCandy/src/Modules/CottonCandy.Repositories/CottonCandy.Repositories.csproj"
               }
             }
           }
