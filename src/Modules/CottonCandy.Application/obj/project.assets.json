@@ -203,19 +203,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Carol\\.nuget\\packages\\": {}
+    "C:\\Users\\giova\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carol\\Desktop\\Projetos\\CottonCandy\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj",
+      "projectUniqueName": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\CottonCandy\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj",
       "projectName": "CottonCandy.Application",
-      "projectPath": "C:\\Users\\Carol\\Desktop\\Projetos\\CottonCandy\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj",
-      "packagesPath": "C:\\Users\\Carol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carol\\Desktop\\Projetos\\CottonCandy\\src\\Modules\\CottonCandy.Application\\obj\\",
+      "projectPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\CottonCandy\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj",
+      "packagesPath": "C:\\Users\\giova\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\CottonCandy\\src\\Modules\\CottonCandy.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Carol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\giova\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -229,8 +229,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Carol\\Desktop\\Projetos\\CottonCandy\\src\\Modules\\CottonCandy.Domain\\CottonCandy.Domain.csproj": {
-              "projectPath": "C:\\Users\\Carol\\Desktop\\Projetos\\CottonCandy\\src\\Modules\\CottonCandy.Domain\\CottonCandy.Domain.csproj"
+            "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\CottonCandy\\src\\Modules\\CottonCandy.Domain\\CottonCandy.Domain.csproj": {
+              "projectPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\CottonCandy\\src\\Modules\\CottonCandy.Domain\\CottonCandy.Domain.csproj"
             }
           }
         }

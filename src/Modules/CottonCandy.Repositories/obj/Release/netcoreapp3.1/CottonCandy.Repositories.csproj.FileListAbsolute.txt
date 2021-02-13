@@ -10,3 +10,15 @@ C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories
 C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Release\netcoreapp3.1\CottonCandy.Repositories.csproj.CopyComplete
 C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Release\netcoreapp3.1\CottonCandy.Repositories.dll
 C:\Users\Carol\Desktop\Projetos\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Release\netcoreapp3.1\CottonCandy.Repositories.pdb
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Repositories\bin\Release\netcoreapp3.1\CottonCandy.Repositories.deps.json
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Repositories\bin\Release\netcoreapp3.1\CottonCandy.Repositories.dll
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Repositories\bin\Release\netcoreapp3.1\CottonCandy.Repositories.pdb
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Repositories\bin\Release\netcoreapp3.1\CottonCandy.Domain.dll
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Repositories\bin\Release\netcoreapp3.1\CottonCandy.Domain.pdb
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Release\netcoreapp3.1\CottonCandy.Repositories.csprojAssemblyReference.cache
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Release\netcoreapp3.1\CottonCandy.Repositories.AssemblyInfoInputs.cache
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Release\netcoreapp3.1\CottonCandy.Repositories.AssemblyInfo.cs
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Release\netcoreapp3.1\CottonCandy.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Release\netcoreapp3.1\CottonCandy.Repositories.csproj.CopyComplete
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Release\netcoreapp3.1\CottonCandy.Repositories.dll
+C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Release\netcoreapp3.1\CottonCandy.Repositories.pdb
