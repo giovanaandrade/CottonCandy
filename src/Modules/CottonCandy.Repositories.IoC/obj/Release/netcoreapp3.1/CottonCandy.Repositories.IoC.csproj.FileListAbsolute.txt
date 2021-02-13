@@ -1,0 +1,4 @@
+C:\Users\Usuario\Desktop\.Net\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\obj\Release\netcoreapp3.1\CottonCandy.Repositories.IoC.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\.Net\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\obj\Release\netcoreapp3.1\CottonCandy.Repositories.IoC.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\.Net\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\obj\Release\netcoreapp3.1\CottonCandy.Repositories.IoC.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\.Net\CottonCandy\src\Modules\CottonCandy.Repositories.IoC\obj\Release\netcoreapp3.1\CottonCandy.Repositories.IoC.csproj.CoreCompileInputs.cache

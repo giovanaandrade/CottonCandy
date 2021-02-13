@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\.Net\\CottonCandy\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\.Net\\CottonCandy\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\.Net\\CottonCandy\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj",
         "projectName": "CottonCandy.Application",
-        "projectPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj",
-        "packagesPath": "C:\\Users\\giova\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Application\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\.Net\\CottonCandy\\src\\Modules\\CottonCandy.Application\\CottonCandy.Application.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\.Net\\CottonCandy\\src\\Modules\\CottonCandy.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\giova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Domain\\CottonCandy.Domain.csproj": {
-                "projectPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Domain\\CottonCandy.Domain.csproj"
+              "C:\\Users\\Usuario\\Desktop\\.Net\\CottonCandy\\src\\Modules\\CottonCandy.Domain\\CottonCandy.Domain.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\.Net\\CottonCandy\\src\\Modules\\CottonCandy.Domain\\CottonCandy.Domain.csproj"
               }
             }
           }
@@ -62,17 +62,17 @@
         }
       }
     },
-    "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Domain\\CottonCandy.Domain.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\.Net\\CottonCandy\\src\\Modules\\CottonCandy.Domain\\CottonCandy.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Domain\\CottonCandy.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\.Net\\CottonCandy\\src\\Modules\\CottonCandy.Domain\\CottonCandy.Domain.csproj",
         "projectName": "CottonCandy.Domain",
-        "projectPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Domain\\CottonCandy.Domain.csproj",
-        "packagesPath": "C:\\Users\\giova\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\giova\\Desktop\\Gama Academy\\projeto-final\\SocialGama\\src\\Modules\\CottonCandy.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\.Net\\CottonCandy\\src\\Modules\\CottonCandy.Domain\\CottonCandy.Domain.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\.Net\\CottonCandy\\src\\Modules\\CottonCandy.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\giova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

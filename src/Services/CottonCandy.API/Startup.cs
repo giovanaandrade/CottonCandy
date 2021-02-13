@@ -26,6 +26,19 @@ namespace CottonCandy.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddSwaggerGen(c => {
+
+                c.SwaggerDoc("v1",
+                    new OpenApiInfo
+                    {
+                        Title = "InstaGama",
+                        Version = "v1",
+                        Description = "Api das meninas da Gama",
+                        Contact = new OpenApiContact
+                        {
+                            Name = "Fernando",
+                            Url = new Uri("https://github.com/marraia")
+                        }
             RegisterServices(services);
         }
 

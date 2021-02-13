@@ -19,6 +19,36 @@ namespace CottonCandy.Application.AppUsuario
             _generoRepository = generoRepository;
             _usuarioRepository = usuarioRepository;
         }
+
+        public async Task <UsuarioViewModel> ObterInformacoesPorIdAsync(int id)
+        {
+            var infos = await _usuarioRepository
+                                .ObterInformacoesPorIdAsync(id)
+                                .ConfigureAwait(false);
+            
+            var postagens = await _postagemRepository
+                                .ObterInformacoesPorIdAsync(id)
+                                .ConfigureAwait(false);
+
+            if (infos is null)
+                return default;
+
+            if (postagens.Count == 0)
+                return default;
+
+            return new UsuarioViewModel()
+            {
+                Id = infos.Id,
+                Nome = infos.Nome,
+                DataNascimento = infos.DataNascimento,
+                Email = infos.Email,
+                Genero = infos.Genero,
+                FotoPerfil = infos.FotoPerfil,
+                Cargo = infos.Cargo,
+                Cidade = infos.Cidade,
+                Postagens = postagens
+            };
+        }
         public async Task<UsuarioViewModel> GetByIdAsync(int id)
         {
             var usuario = await _usuarioRepository
