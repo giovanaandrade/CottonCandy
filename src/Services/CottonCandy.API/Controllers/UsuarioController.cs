@@ -29,11 +29,35 @@ namespace CottonCandy.API.Controllers
 
                 return Created("", usuario);
             }
-            catch(ArgumentException arg)
+            catch (ArgumentException arg)
             {
                 return BadRequest(arg.Message);
             }
-  
+
         }
+
+        //fim do método post
+
+        [HttpGet]
+        [Route("{id}")]
+        public async Task<IActionResult> Get([FromRoute] int id)
+        {
+            var perfil = await _usuarioAppService
+                                .ObterInformacoesPorIdAsync(id)
+                                .ConfigureAwait(false);
+
+            if (perfil is null)
+                return NotFound();
+
+            return Ok(perfil);
+
+        }
+
+
+
+
     }
+
+
+
 }
