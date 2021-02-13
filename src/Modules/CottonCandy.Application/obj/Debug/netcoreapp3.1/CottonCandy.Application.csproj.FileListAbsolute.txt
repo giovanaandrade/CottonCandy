@@ -22,3 +22,9 @@ C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\Cotton
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Application\bin\Debug\netcoreapp3.1\CottonCandy.Domain.dll
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Application\bin\Debug\netcoreapp3.1\CottonCandy.Domain.pdb
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Application\obj\Debug\netcoreapp3.1\CottonCandy.Application.csproj.CopyComplete
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Application\obj\Debug\netcoreapp3.1\CottonCandy.Application.csprojAssemblyReference.cache
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Application\obj\Debug\netcoreapp3.1\CottonCandy.Application.AssemblyInfoInputs.cache
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Application\obj\Debug\netcoreapp3.1\CottonCandy.Application.AssemblyInfo.cs
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Application\obj\Debug\netcoreapp3.1\CottonCandy.Application.csproj.CoreCompileInputs.cache
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Application\obj\Debug\netcoreapp3.1\CottonCandy.Application.dll
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Application\obj\Debug\netcoreapp3.1\CottonCandy.Application.pdb

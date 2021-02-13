@@ -22,3 +22,15 @@ C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\Cotton
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Debug\netcoreapp3.1\CottonCandy.Repositories.csproj.CopyComplete
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Debug\netcoreapp3.1\CottonCandy.Repositories.dll
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Debug\netcoreapp3.1\CottonCandy.Repositories.pdb
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Repositories\bin\Debug\netcoreapp3.1\CottonCandy.Repositories.deps.json
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Repositories\bin\Debug\netcoreapp3.1\CottonCandy.Repositories.dll
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Repositories\bin\Debug\netcoreapp3.1\CottonCandy.Repositories.pdb
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Repositories\bin\Debug\netcoreapp3.1\CottonCandy.Domain.dll
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Repositories\bin\Debug\netcoreapp3.1\CottonCandy.Domain.pdb
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Debug\netcoreapp3.1\CottonCandy.Repositories.csprojAssemblyReference.cache
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Debug\netcoreapp3.1\CottonCandy.Repositories.AssemblyInfoInputs.cache
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Debug\netcoreapp3.1\CottonCandy.Repositories.AssemblyInfo.cs
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Debug\netcoreapp3.1\CottonCandy.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Debug\netcoreapp3.1\CottonCandy.Repositories.csproj.CopyComplete
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Debug\netcoreapp3.1\CottonCandy.Repositories.dll
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Modules\CottonCandy.Repositories\obj\Debug\netcoreapp3.1\CottonCandy.Repositories.pdb

@@ -91,3 +91,11 @@ C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\Cotto
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Connections.Abstractions.dll
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\giova\Desktop\Gama Academy\projeto-final\CottonCandy\src\Services\CottonCandy.API\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Services\CottonCandy.API\obj\Debug\netcoreapp3.1\CottonCandy.API.csprojAssemblyReference.cache
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Services\CottonCandy.API\obj\Debug\netcoreapp3.1\CottonCandy.API.AssemblyInfoInputs.cache
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Services\CottonCandy.API\obj\Debug\netcoreapp3.1\CottonCandy.API.AssemblyInfo.cs
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Services\CottonCandy.API\obj\Debug\netcoreapp3.1\CottonCandy.API.csproj.CoreCompileInputs.cache
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Services\CottonCandy.API\obj\Debug\netcoreapp3.1\CottonCandy.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Services\CottonCandy.API\obj\Debug\netcoreapp3.1\CottonCandy.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Services\CottonCandy.API\obj\Debug\netcoreapp3.1\CottonCandy.API.dll
+C:\Users\thaty\Desktop\cursos\GAMA-BackEnd\c#\TCC - Instagama\CottonCandy\src\Services\CottonCandy.API\obj\Debug\netcoreapp3.1\CottonCandy.API.pdb

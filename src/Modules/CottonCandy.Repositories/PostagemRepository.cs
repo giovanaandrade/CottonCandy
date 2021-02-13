@@ -90,6 +90,44 @@ namespace CottonCandy.Repositories
                 }
             }
         }
+
+        public async Task<List<String>> GetByUserIdOnlyPhotosAsync(int usuarioId)
+        {
+            using (var con = new SqlConnection(_configuration["ConnectionString"]))
+            {
+                var sqlCmd = @$"SELECT Id,
+                                       DataPostagem,
+                                       FotoPost,
+                                       UsuarioId
+                                FROM 
+	                                Postagem
+                                WHERE
+                                    FotoPost = <>'';
+	                                UsuarioId= '{usuarioId}'";
+
+                using (var cmd = new SqlCommand(sqlCmd, con))
+                {
+                    cmd.CommandType = CommandType.Text;
+                    con.Open();
+
+                    var reader = await cmd
+                                        .ExecuteReaderAsync()
+                                        .ConfigureAwait(false);
+
+                    var fotosUsuario = new List<String>();
+
+                    while (reader.Read())
+                    {
+                        var foto = reader["FotoPost"].ToString();
+
+
+                        fotosUsuario.Add(foto);
+                    }
+
+                    return fotosUsuario;
+                }
+            }
+        }
     }
     
 }

@@ -10,5 +10,6 @@ namespace CottonCandy.Domain.Interfaces
     {
         Task<int> InsertAsync(Postagem postagem);
         Task<List<Postagem>> GetByUserIdAsync(int usuarioId);
+        Task<List<String>> GetByUserIdOnlyPhotosAsync(int usuarioId);
     }
 }
