@@ -11,13 +11,13 @@ namespace CottonCandy.Application.AppPostagem
     public class CurtidasAppService : ICurtidasAppService
     {
         private readonly ICurtidasRepository _curtidasRepository;
-        private readonly ILogged _logged;
+       // private readonly ILogged _logged;
 
-        public CurtidasAppService(ICurtidasRepository CurtidasRepository,
-                               ILogged logged)
+        public CurtidasAppService(ICurtidasRepository CurtidasRepository)
+                           //    ILogged logged)
         {
             _curtidasRepository = CurtidasRepository;
-            _logged = logged;
+           // _logged = logged;
         }
 
         public async Task<int> GetQtdeCurtidasByPostagemIdAsync(int postagemId)
@@ -41,21 +41,21 @@ namespace CottonCandy.Application.AppPostagem
 
         public async Task<int> InsertAsync(int postagemId)
         {
-            var usuarioId = _logged.GetUserLoggedId();
+            var usuarioId = 1;//_logged.GetUserLoggedId();
 
             var postagemJaCurtida = await _curtidasRepository
                                                 .GetByUsuarioIdAndPostagemIdAsync(usuarioId, postagemId)
                                                 .ConfigureAwait(false);
-            if (postagemJaCurtida != null)
+         /*   if (postagemJaCurtida != null)
             {
                 await _curtidasRepository.DeleteAsync(postagemJaCurtida.Id)
                          .ConfigureAwait(false);
-            }
+            }*/
 
             var curtida = new Curtidas(postagemId, usuarioId);
             //Validar os dados obriatorios..
 
-            await _curtidasRepository
+          return  await _curtidasRepository
                     .InsertAsync(curtida)
                     .ConfigureAwait(false);
         }

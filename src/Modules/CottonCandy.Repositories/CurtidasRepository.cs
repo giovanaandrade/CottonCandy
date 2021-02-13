@@ -24,7 +24,6 @@ namespace CottonCandy.Repositories
             using (var con = new SqlConnection(_configuration["ConnectionString"]))
             {
                 var sqlCmd = @$"SELECT Id,
-                                       Tipo,
                                        PostagemId,
                                        UsuarioId
                                 FROM 
@@ -46,8 +45,7 @@ namespace CottonCandy.Repositories
                     while (reader.Read())
                     {
                         var curtidas = new Curtidas(int.Parse(reader["UsuarioId"].ToString()),
-                                                    int.Parse(reader["PostagemId"].ToString()),
-                                                    reader["Tipo"].ToString());
+                                                    int.Parse(reader["PostagemId"].ToString()));
 
 
                         curtidasUsuario.Add(curtidas);
@@ -63,7 +61,6 @@ namespace CottonCandy.Repositories
             using (var con = new SqlConnection(_configuration["ConnectionString"]))
             {
                 var sqlCmd = @$"SELECT Id,
-                                       Tipo,
                                        PostagemId,
                                        UsuarioId
                                 FROM 
@@ -85,8 +82,7 @@ namespace CottonCandy.Repositories
                     while (reader.Read())
                     {
                         var curtidas = new Curtidas(int.Parse(reader["UsuarioId"].ToString()),
-                                                    int.Parse(reader["PostagemId"].ToString()),
-                                                    reader["Tipo"].ToString());
+                                                    int.Parse(reader["PostagemId"].ToString()));
 
 
                         curtidasPostagem.Add(curtidas);
@@ -103,8 +99,7 @@ namespace CottonCandy.Repositories
             {
                 var sqlCmd = @$"SELECT Id,
 	                                   UsuarioId,
-                                       PostagemId,
-                                       Tipo
+                                       PostagemId
                                 FROM 
 	                                Curtidas
                                 WHERE 
@@ -124,8 +119,7 @@ namespace CottonCandy.Repositories
                     while (reader.Read())
                     {
                         var curtida = new Curtidas(int.Parse(reader["PostagemId"].ToString()),
-                                                int.Parse(reader["UsuarioId"].ToString()),
-                                                reader["Tipo"].ToString());
+                                                int.Parse(reader["UsuarioId"].ToString()));
 
                         return curtida;
                     }
@@ -169,17 +163,14 @@ namespace CottonCandy.Repositories
             using (var con = new SqlConnection(_configuration["ConnectionString"]))
             {
                 var sqlCmd = @"INSERT INTO
-                                 Curtidas (Tipo,
-                                            PostagemId,
+                                 Curtidas (PostagemId,
                                             UsuarioId)
-                                VALUES (@tipo,
-                                        @postagemId,
+                                VALUES (@postagemId,
                                         @usuarioId); SELECT scope_identity();";
 
                 using (var cmd = new SqlCommand(sqlCmd, con))
                 {
                     cmd.CommandType = CommandType.Text;
-                    cmd.Parameters.AddWithValue("tipo", curtidas.Tipo);
                     cmd.Parameters.AddWithValue("postagemId", curtidas.PostagemId);
                     cmd.Parameters.AddWithValue("usuarioId", curtidas.UsuarioId);
 

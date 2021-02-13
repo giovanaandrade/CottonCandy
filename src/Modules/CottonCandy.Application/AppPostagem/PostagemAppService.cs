@@ -12,17 +12,17 @@ namespace CottonCandy.Application
     public class PostagemAppService : IPostagemAppService
     {
         private readonly IPostagemRepository _postagemRepository;
-        private readonly ILogged _logged;
-        public PostagemAppService(IPostagemRepository postagemRepository,
-                                 ILogged logged)
+        //private readonly ILogged _logged;
+        public PostagemAppService(IPostagemRepository postagemRepository)
+                               //  ILogged logged)
         {
             _postagemRepository = postagemRepository;
-            _logged = logged;
+           // _logged = logged;
         }
 
         public async Task<List<Postagem>> GetByUserIdAsync()
         {
-            var userId = _logged.GetUserLoggedId();
+            var userId = 1; //_logged.GetUserLoggedId();
 
             var postages = await _postagemRepository.GetByUserIdAsync(userId)
                                     .ConfigureAwait(false);
@@ -31,15 +31,17 @@ namespace CottonCandy.Application
 
         public async Task<Postagem> InsertAsync(PostagemInput input)
         {
-            //var userId = _logged.GetUserLoggedId();
+            var userId = 1; // _logged.GetUserLoggedId();
 
             var postagem = new Postagem(input.Texto, input.FotoPost, userId);
 
             //Validar classe com dados obrigatorios..
 
-            var id = await _postagemRepository
+            int id = await _postagemRepository
                              .InsertAsync(postagem)
                              .ConfigureAwait(false);
+
+
 
             postagem.SetId(id);
 

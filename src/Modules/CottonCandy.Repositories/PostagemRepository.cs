@@ -25,7 +25,7 @@ namespace CottonCandy.Repositories
                 var sqlCmd = @$"SELECT Id,
                                        Texto,
                                        DataPostagem,
-                                       Foto,
+                                       FotoPost,
                                        UsuarioId
 
                                 FROM 
@@ -66,7 +66,7 @@ namespace CottonCandy.Repositories
                 var sqlCmd = @"INSERT INTO
                                  Postagem (Texto,
                                             DataPostagem,
-                                            Foto,
+                                            FotoPost,
                                             UsuarioId)
                                 VALUES (@texto,
                                         @dataPostagem,
